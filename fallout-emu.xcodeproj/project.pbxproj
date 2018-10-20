@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B200209B1C2C298000109F55 /* libBeaEngine_s_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BFF1911B10A4D7007ACE5C /* libBeaEngine_s_64.a */; };
+		B212F0661AACA0880087C0F4 /* FEMemoryAccessException.m in Sources */ = {isa = PBXBuildFile; fileRef = B212F0651AACA0880087C0F4 /* FEMemoryAccessException.m */; };
+		B212F06C1AACC0910087C0F4 /* FEImportException.m in Sources */ = {isa = PBXBuildFile; fileRef = B212F06B1AACC0910087C0F4 /* FEImportException.m */; };
+		B228C2C31AB489BE00664B78 /* FEProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = B228C2C21AB489BE00664B78 /* FEProcess.m */; };
+		B228C2C61AB4B4C500664B78 /* FELocalDescriptorTable.c in Sources */ = {isa = PBXBuildFile; fileRef = B228C2C51AB4B4C500664B78 /* FELocalDescriptorTable.c */; };
+		B228C2C91AB4B77800664B78 /* FEMemoryOverflow.m in Sources */ = {isa = PBXBuildFile; fileRef = B228C2C81AB4B77800664B78 /* FEMemoryOverflow.m */; };
+		B228C2CC1AB4D06A00664B78 /* FEPEReadException.m in Sources */ = {isa = PBXBuildFile; fileRef = B228C2CB1AB4D06A00664B78 /* FEPEReadException.m */; };
+		B228C2CF1AB4F63400664B78 /* FEMSVCRTDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B228C2CE1AB4F63400664B78 /* FEMSVCRTDLL.m */; };
+		B22B31F11AAF87FD007B7BB9 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = B22B31E81AAF87FD007B7BB9 /* error.c */; };
+		B22B31F21AAF87FD007B7BB9 /* pe.c in Sources */ = {isa = PBXBuildFile; fileRef = B22B31EE1AAF87FD007B7BB9 /* pe.c */; };
+		B23389A91AD96B9E00CC87A8 /* FEDivideError.m in Sources */ = {isa = PBXBuildFile; fileRef = B23389A81AD96B9E00CC87A8 /* FEDivideError.m */; };
+		B236C21B1A9928EC00BE7F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C21A1A9928EC00BE7F31 /* main.m */; };
+		B236C2251A9A3C3C00BE7F31 /* FEStack.c in Sources */ = {isa = PBXBuildFile; fileRef = B236C2241A9A3C3C00BE7F31 /* FEStack.c */; };
+		B236C2281A9A3F7400BE7F31 /* FEThreadContext.c in Sources */ = {isa = PBXBuildFile; fileRef = B236C2271A9A3F7400BE7F31 /* FEThreadContext.c */; };
+		B236C22B1A9A601E00BE7F31 /* FEMemoryMap.c in Sources */ = {isa = PBXBuildFile; fileRef = B236C22A1A9A601E00BE7F31 /* FEMemoryMap.c */; };
+		B236C22E1A9A6FE400BE7F31 /* FEMemoryMapBlock.c in Sources */ = {isa = PBXBuildFile; fileRef = B236C22D1A9A6FE400BE7F31 /* FEMemoryMapBlock.c */; };
+		B236C2441A9D424800BE7F31 /* beaengine_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C2431A9D424700BE7F31 /* beaengine_utils.m */; };
+		B236C2471AA3A89B00BE7F31 /* FEImportsProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C2461AA3A89B00BE7F31 /* FEImportsProxy.m */; };
+		B236C24B1AABAEE200BE7F31 /* NSString+FE.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C24A1AABAEE200BE7F31 /* NSString+FE.m */; };
+		B236C24F1AAC5D8E00BE7F31 /* FEKernel32DLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C24E1AAC5D8E00BE7F31 /* FEKernel32DLL.m */; };
+		B24390B11F8A9B0B007AF278 /* libBeaEngine_s_d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B24390B01F8A9B0B007AF278 /* libBeaEngine_s_d.a */; };
+		B25A0D391AC7624700634912 /* FEUser32DLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D381AC7624700634912 /* FEUser32DLL.m */; };
+		B25A0D3C1AC76D1400634912 /* FEGDI32DLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D3B1AC76D1400634912 /* FEGDI32DLL.m */; };
+		B25A0D3F1AC847CC00634912 /* FEDDrawDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D3E1AC847CC00634912 /* FEDDrawDLL.m */; };
+		B25A0D421AC8A69000634912 /* FEDInputDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D411AC8A69000634912 /* FEDInputDLL.m */; };
+		B25A0D451AC8A77B00634912 /* FEDSoundDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D441AC8A77B00634912 /* FEDSoundDLL.m */; };
+		B27B1F311C27344900456572 /* FEMemoryMap.s in Sources */ = {isa = PBXBuildFile; fileRef = B27B1F301C27344900456572 /* FEMemoryMap.s */; };
+		B27B1F321C27344900456572 /* FEMemoryMap.s in Sources */ = {isa = PBXBuildFile; fileRef = B27B1F301C27344900456572 /* FEMemoryMap.s */; };
+		B28CAE4F1BEF796E0024E83D /* fallout_emu_static_osx.h in Headers */ = {isa = PBXBuildFile; fileRef = B28CAE4E1BEF796E0024E83D /* fallout_emu_static_osx.h */; };
+		B28CAE511BEF796E0024E83D /* fallout_emu_static_osx.m in Sources */ = {isa = PBXBuildFile; fileRef = B28CAE501BEF796E0024E83D /* fallout_emu_static_osx.m */; };
+		B28CAE551BEF79C00024E83D /* FEMemoryAccessException.m in Sources */ = {isa = PBXBuildFile; fileRef = B212F0651AACA0880087C0F4 /* FEMemoryAccessException.m */; };
+		B28CAE561BEF79C00024E83D /* FEImportException.m in Sources */ = {isa = PBXBuildFile; fileRef = B212F06B1AACC0910087C0F4 /* FEImportException.m */; };
+		B28CAE571BEF79C00024E83D /* FEMemoryOverflow.m in Sources */ = {isa = PBXBuildFile; fileRef = B228C2C81AB4B77800664B78 /* FEMemoryOverflow.m */; };
+		B28CAE581BEF79C00024E83D /* FEPEReadException.m in Sources */ = {isa = PBXBuildFile; fileRef = B228C2CB1AB4D06A00664B78 /* FEPEReadException.m */; };
+		B28CAE591BEF79C00024E83D /* FEDivideError.m in Sources */ = {isa = PBXBuildFile; fileRef = B23389A81AD96B9E00CC87A8 /* FEDivideError.m */; };
+		B28CAE5A1BEF79C00024E83D /* FEKernel32DLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C24E1AAC5D8E00BE7F31 /* FEKernel32DLL.m */; };
+		B28CAE5B1BEF79C00024E83D /* FEMSVCRTDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B228C2CE1AB4F63400664B78 /* FEMSVCRTDLL.m */; };
+		B28CAE5C1BEF79C00024E83D /* FEUser32DLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D381AC7624700634912 /* FEUser32DLL.m */; };
+		B28CAE5D1BEF79C00024E83D /* FEGDI32DLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D3B1AC76D1400634912 /* FEGDI32DLL.m */; };
+		B28CAE5E1BEF79C00024E83D /* FEDDrawDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D3E1AC847CC00634912 /* FEDDrawDLL.m */; };
+		B28CAE5F1BEF79C00024E83D /* FEDInputDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D411AC8A69000634912 /* FEDInputDLL.m */; };
+		B28CAE601BEF79C00024E83D /* FEDSoundDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A0D441AC8A77B00634912 /* FEDSoundDLL.m */; };
+		B28CAE611BEF79C00024E83D /* FEWinmmDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BFF1951B1A65B1007ACE5C /* FEWinmmDLL.m */; };
+		B28CAE621BEF79C00024E83D /* NSString+FE.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C24A1AABAEE200BE7F31 /* NSString+FE.m */; };
+		B28CAE631BEF79C00024E83D /* FEStack.c in Sources */ = {isa = PBXBuildFile; fileRef = B236C2241A9A3C3C00BE7F31 /* FEStack.c */; };
+		B28CAE641BEF79C00024E83D /* FEThreadContext.c in Sources */ = {isa = PBXBuildFile; fileRef = B236C2271A9A3F7400BE7F31 /* FEThreadContext.c */; };
+		B28CAE651BEF79C00024E83D /* FEMemoryMap.c in Sources */ = {isa = PBXBuildFile; fileRef = B236C22A1A9A601E00BE7F31 /* FEMemoryMap.c */; };
+		B28CAE661BEF79C00024E83D /* FEMemoryMapBlock.c in Sources */ = {isa = PBXBuildFile; fileRef = B236C22D1A9A6FE400BE7F31 /* FEMemoryMapBlock.c */; };
+		B28CAE671BEF79C00024E83D /* beaengine_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C2431A9D424700BE7F31 /* beaengine_utils.m */; };
+		B28CAE681BEF79C00024E83D /* FEImportsProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B236C2461AA3A89B00BE7F31 /* FEImportsProxy.m */; };
+		B28CAE6A1BEF79C00024E83D /* FEProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = B228C2C21AB489BE00664B78 /* FEProcess.m */; };
+		B28CAE6B1BEF79C00024E83D /* FELocalDescriptorTable.c in Sources */ = {isa = PBXBuildFile; fileRef = B228C2C51AB4B4C500664B78 /* FELocalDescriptorTable.c */; };
+		B28CAE6C1BEF79C00024E83D /* FEFPU.c in Sources */ = {isa = PBXBuildFile; fileRef = B2C084C91ABEE7AD009455F5 /* FEFPU.c */; };
+		B28CAE6D1BEF79C00024E83D /* FECPUFlags.c in Sources */ = {isa = PBXBuildFile; fileRef = B2BFF1791AF02B7B007ACE5C /* FECPUFlags.c */; };
+		B28CAE6E1BEF79C00024E83D /* FEArray.c in Sources */ = {isa = PBXBuildFile; fileRef = B2BFF1981B1E4D1B007ACE5C /* FEArray.c */; };
+		B28CAE6F1BEF79C00024E83D /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EE7D301B3CAAEB0035FB9A /* utils.m */; };
+		B28CAE701BEF79C00024E83D /* cutils.c in Sources */ = {isa = PBXBuildFile; fileRef = B2EE7D331B4885F80035FB9A /* cutils.c */; };
+		B28CAE711BEF7A860024E83D /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = B22B31E81AAF87FD007B7BB9 /* error.c */; };
+		B28CAE721BEF7A860024E83D /* pe.c in Sources */ = {isa = PBXBuildFile; fileRef = B22B31EE1AAF87FD007B7BB9 /* pe.c */; };
+		B2BFF17A1AF02B7B007ACE5C /* FECPUFlags.c in Sources */ = {isa = PBXBuildFile; fileRef = B2BFF1791AF02B7B007ACE5C /* FECPUFlags.c */; };
+		B2BFF1961B1A65B1007ACE5C /* FEWinmmDLL.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BFF1951B1A65B1007ACE5C /* FEWinmmDLL.m */; };
+		B2BFF19A1B1E4D1B007ACE5C /* FEArray.c in Sources */ = {isa = PBXBuildFile; fileRef = B2BFF1981B1E4D1B007ACE5C /* FEArray.c */; };
+		B2C084CA1ABEE7AD009455F5 /* FEFPU.c in Sources */ = {isa = PBXBuildFile; fileRef = B2C084C91ABEE7AD009455F5 /* FEFPU.c */; };
+		B2EE7D321B3CAAEB0035FB9A /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EE7D301B3CAAEB0035FB9A /* utils.m */; };
+		B2EE7D351B4885F80035FB9A /* cutils.c in Sources */ = {isa = PBXBuildFile; fileRef = B2EE7D331B4885F80035FB9A /* cutils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B212F0631AAC9B8E0087C0F4 /* FEMemoryAccessMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEMemoryAccessMode.h; sourceTree = "<group>"; };
+		B212F0641AACA0880087C0F4 /* FEMemoryAccessException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMemoryAccessException.h; sourceTree = "<group>"; };
+		B212F0651AACA0880087C0F4 /* FEMemoryAccessException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEMemoryAccessException.m; sourceTree = "<group>"; };
+		B212F06A1AACC0910087C0F4 /* FEImportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEImportException.h; sourceTree = "<group>"; };
+		B212F06B1AACC0910087C0F4 /* FEImportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEImportException.m; sourceTree = "<group>"; };
+		B228C2C11AB489BE00664B78 /* FEProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEProcess.h; sourceTree = "<group>"; };
+		B228C2C21AB489BE00664B78 /* FEProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEProcess.m; sourceTree = "<group>"; };
+		B228C2C41AB4B4C500664B78 /* FELocalDescriptorTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FELocalDescriptorTable.h; sourceTree = "<group>"; };
+		B228C2C51AB4B4C500664B78 /* FELocalDescriptorTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FELocalDescriptorTable.c; sourceTree = "<group>"; };
+		B228C2C71AB4B77800664B78 /* FEMemoryOverflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMemoryOverflow.h; sourceTree = "<group>"; };
+		B228C2C81AB4B77800664B78 /* FEMemoryOverflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEMemoryOverflow.m; sourceTree = "<group>"; };
+		B228C2CA1AB4D06A00664B78 /* FEPEReadException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEPEReadException.h; sourceTree = "<group>"; };
+		B228C2CB1AB4D06A00664B78 /* FEPEReadException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEPEReadException.m; sourceTree = "<group>"; };
+		B228C2CD1AB4F63400664B78 /* FEMSVCRTDLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMSVCRTDLL.h; sourceTree = "<group>"; };
+		B228C2CE1AB4F63400664B78 /* FEMSVCRTDLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEMSVCRTDLL.m; sourceTree = "<group>"; };
+		B22B31E21AAE3961007B7BB9 /* FECommonTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FECommonTypes.h; sourceTree = "<group>"; };
+		B22B31E41AAF87FD007B7BB9 /* dir_import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dir_import.h; path = thirdparty/pev/lib/libpe/dir_import.h; sourceTree = "<group>"; };
+		B22B31E51AAF87FD007B7BB9 /* dir_resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dir_resources.h; path = thirdparty/pev/lib/libpe/dir_resources.h; sourceTree = "<group>"; };
+		B22B31E61AAF87FD007B7BB9 /* dir_security.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dir_security.h; path = thirdparty/pev/lib/libpe/dir_security.h; sourceTree = "<group>"; };
+		B22B31E71AAF87FD007B7BB9 /* directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = directories.h; path = thirdparty/pev/lib/libpe/directories.h; sourceTree = "<group>"; };
+		B22B31E81AAF87FD007B7BB9 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = error.c; path = thirdparty/pev/lib/libpe/error.c; sourceTree = "<group>"; };
+		B22B31E91AAF87FD007B7BB9 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = error.h; path = thirdparty/pev/lib/libpe/error.h; sourceTree = "<group>"; };
+		B22B31EA1AAF87FD007B7BB9 /* hdr_coff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdr_coff.h; path = thirdparty/pev/lib/libpe/hdr_coff.h; sourceTree = "<group>"; };
+		B22B31EB1AAF87FD007B7BB9 /* hdr_dos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdr_dos.h; path = thirdparty/pev/lib/libpe/hdr_dos.h; sourceTree = "<group>"; };
+		B22B31EC1AAF87FD007B7BB9 /* hdr_optional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdr_optional.h; path = thirdparty/pev/lib/libpe/hdr_optional.h; sourceTree = "<group>"; };
+		B22B31ED1AAF87FD007B7BB9 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = macros.h; path = thirdparty/pev/lib/libpe/macros.h; sourceTree = "<group>"; };
+		B22B31EE1AAF87FD007B7BB9 /* pe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pe.c; path = thirdparty/pev/lib/libpe/pe.c; sourceTree = "<group>"; };
+		B22B31EF1AAF87FD007B7BB9 /* pe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pe.h; path = thirdparty/pev/lib/libpe/pe.h; sourceTree = "<group>"; };
+		B22B31F01AAF87FD007B7BB9 /* sections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sections.h; path = thirdparty/pev/lib/libpe/sections.h; sourceTree = "<group>"; };
+		B22B31F41AB0EA2B007B7BB9 /* FETime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FETime.h; sourceTree = "<group>"; };
+		B23389A71AD96B9E00CC87A8 /* FEDivideError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDivideError.h; sourceTree = "<group>"; };
+		B23389A81AD96B9E00CC87A8 /* FEDivideError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDivideError.m; sourceTree = "<group>"; };
+		B236C2171A9928EC00BE7F31 /* fallout-emu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fallout-emu"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B236C21A1A9928EC00BE7F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B236C2231A9A3C3C00BE7F31 /* FEStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEStack.h; sourceTree = "<group>"; };
+		B236C2241A9A3C3C00BE7F31 /* FEStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FEStack.c; sourceTree = "<group>"; };
+		B236C2261A9A3F7400BE7F31 /* FEThreadContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEThreadContext.h; sourceTree = "<group>"; };
+		B236C2271A9A3F7400BE7F31 /* FEThreadContext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FEThreadContext.c; sourceTree = "<group>"; };
+		B236C2291A9A601E00BE7F31 /* FEMemoryMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMemoryMap.h; sourceTree = "<group>"; };
+		B236C22A1A9A601E00BE7F31 /* FEMemoryMap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FEMemoryMap.c; sourceTree = "<group>"; };
+		B236C22C1A9A6FE400BE7F31 /* FEMemoryMapBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMemoryMapBlock.h; sourceTree = "<group>"; };
+		B236C22D1A9A6FE400BE7F31 /* FEMemoryMapBlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FEMemoryMapBlock.c; sourceTree = "<group>"; };
+		B236C2421A9D423300BE7F31 /* beaengine_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beaengine_utils.h; sourceTree = "<group>"; };
+		B236C2431A9D424700BE7F31 /* beaengine_utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beaengine_utils.m; sourceTree = "<group>"; };
+		B236C2451AA3A89B00BE7F31 /* FEImportsProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEImportsProxy.h; sourceTree = "<group>"; };
+		B236C2461AA3A89B00BE7F31 /* FEImportsProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEImportsProxy.m; sourceTree = "<group>"; };
+		B236C2491AABAEE200BE7F31 /* NSString+FE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FE.h"; sourceTree = "<group>"; };
+		B236C24A1AABAEE200BE7F31 /* NSString+FE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FE.m"; sourceTree = "<group>"; };
+		B236C24D1AAC5D8E00BE7F31 /* FEKernel32DLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEKernel32DLL.h; sourceTree = "<group>"; };
+		B236C24E1AAC5D8E00BE7F31 /* FEKernel32DLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEKernel32DLL.m; sourceTree = "<group>"; };
+		B24390B01F8A9B0B007AF278 /* libBeaEngine_s_d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBeaEngine_s_d.a; path = thirdparty/beaengine/lib/libBeaEngine_s_d.a; sourceTree = "<group>"; };
+		B25A0D131ABF5EF600634912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25A0D141ABF5EF600634912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B25A0D161ABF5EF600634912 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B25A0D171ABF5EF600634912 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B25A0D191ABF5EF600634912 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B25A0D1A1ABF5EF600634912 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B25A0D1D1ABF5EF600634912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B25A0D1F1ABF5EF600634912 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B25A0D221ABF5EF600634912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B25A0D361AC71B5E00634912 /* FENLS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FENLS.h; sourceTree = "<group>"; };
+		B25A0D371AC7624700634912 /* FEUser32DLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEUser32DLL.h; sourceTree = "<group>"; };
+		B25A0D381AC7624700634912 /* FEUser32DLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEUser32DLL.m; sourceTree = "<group>"; };
+		B25A0D3A1AC76D1400634912 /* FEGDI32DLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEGDI32DLL.h; sourceTree = "<group>"; };
+		B25A0D3B1AC76D1400634912 /* FEGDI32DLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEGDI32DLL.m; sourceTree = "<group>"; };
+		B25A0D3D1AC847CC00634912 /* FEDDrawDLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDDrawDLL.h; sourceTree = "<group>"; };
+		B25A0D3E1AC847CC00634912 /* FEDDrawDLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDDrawDLL.m; sourceTree = "<group>"; };
+		B25A0D401AC8A69000634912 /* FEDInputDLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDInputDLL.h; sourceTree = "<group>"; };
+		B25A0D411AC8A69000634912 /* FEDInputDLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDInputDLL.m; sourceTree = "<group>"; };
+		B25A0D431AC8A77B00634912 /* FEDSoundDLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDSoundDLL.h; sourceTree = "<group>"; };
+		B25A0D441AC8A77B00634912 /* FEDSoundDLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDSoundDLL.m; sourceTree = "<group>"; };
+		B27B1F301C27344900456572 /* FEMemoryMap.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = FEMemoryMap.s; sourceTree = "<group>"; };
+		B28CAE4C1BEF796E0024E83D /* libfallout-emu-static-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libfallout-emu-static-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28CAE4E1BEF796E0024E83D /* fallout_emu_static_osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fallout_emu_static_osx.h; sourceTree = "<group>"; };
+		B28CAE501BEF796E0024E83D /* fallout_emu_static_osx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fallout_emu_static_osx.m; sourceTree = "<group>"; };
+		B2BFF1781AF02B7B007ACE5C /* FECPUFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FECPUFlags.h; sourceTree = "<group>"; };
+		B2BFF1791AF02B7B007ACE5C /* FECPUFlags.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FECPUFlags.c; sourceTree = "<group>"; };
+		B2BFF1911B10A4D7007ACE5C /* libBeaEngine_s_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBeaEngine_s_64.a; path = thirdparty/beaengine/lib/libBeaEngine_s_64.a; sourceTree = "<group>"; };
+		B2BFF1931B10BF47007ACE5C /* FEPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEPCH.pch; sourceTree = "<group>"; };
+		B2BFF1941B1A65B1007ACE5C /* FEWinmmDLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEWinmmDLL.h; sourceTree = "<group>"; };
+		B2BFF1951B1A65B1007ACE5C /* FEWinmmDLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEWinmmDLL.m; sourceTree = "<group>"; };
+		B2BFF1981B1E4D1B007ACE5C /* FEArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FEArray.c; sourceTree = "<group>"; };
+		B2BFF1991B1E4D1B007ACE5C /* FEArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEArray.h; sourceTree = "<group>"; };
+		B2C084C81ABEE7AD009455F5 /* FEFPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEFPU.h; sourceTree = "<group>"; };
+		B2C084C91ABEE7AD009455F5 /* FEFPU.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FEFPU.c; sourceTree = "<group>"; };
+		B2EE7D301B3CAAEB0035FB9A /* utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = utils.m; sourceTree = "<group>"; };
+		B2EE7D311B3CAAEB0035FB9A /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		B2EE7D331B4885F80035FB9A /* cutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutils.c; sourceTree = "<group>"; };
+		B2EE7D341B4885F80035FB9A /* cutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cutils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B236C2141A9928EC00BE7F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24390B11F8A9B0B007AF278 /* libBeaEngine_s_d.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28CAE491BEF796E0024E83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B200209B1C2C298000109F55 /* libBeaEngine_s_64.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B212F0671AACA0BC0087C0F4 /* exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				B212F0641AACA0880087C0F4 /* FEMemoryAccessException.h */,
+				B212F0651AACA0880087C0F4 /* FEMemoryAccessException.m */,
+				B212F06A1AACC0910087C0F4 /* FEImportException.h */,
+				B212F06B1AACC0910087C0F4 /* FEImportException.m */,
+				B228C2C71AB4B77800664B78 /* FEMemoryOverflow.h */,
+				B228C2C81AB4B77800664B78 /* FEMemoryOverflow.m */,
+				B228C2CA1AB4D06A00664B78 /* FEPEReadException.h */,
+				B228C2CB1AB4D06A00664B78 /* FEPEReadException.m */,
+				B23389A71AD96B9E00CC87A8 /* FEDivideError.h */,
+				B23389A81AD96B9E00CC87A8 /* FEDivideError.m */,
+			);
+			name = exceptions;
+			sourceTree = "<group>";
+		};
+		B22B31E31AAF87D0007B7BB9 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				B2BFF1911B10A4D7007ACE5C /* libBeaEngine_s_64.a */,
+				B22B31F31AAF8802007B7BB9 /* libpe */,
+			);
+			name = thirdparty;
+			sourceTree = "<group>";
+		};
+		B22B31F31AAF8802007B7BB9 /* libpe */ = {
+			isa = PBXGroup;
+			children = (
+				B22B31E41AAF87FD007B7BB9 /* dir_import.h */,
+				B22B31E51AAF87FD007B7BB9 /* dir_resources.h */,
+				B22B31E61AAF87FD007B7BB9 /* dir_security.h */,
+				B22B31E71AAF87FD007B7BB9 /* directories.h */,
+				B22B31E81AAF87FD007B7BB9 /* error.c */,
+				B22B31E91AAF87FD007B7BB9 /* error.h */,
+				B22B31EA1AAF87FD007B7BB9 /* hdr_coff.h */,
+				B22B31EB1AAF87FD007B7BB9 /* hdr_dos.h */,
+				B22B31EC1AAF87FD007B7BB9 /* hdr_optional.h */,
+				B22B31ED1AAF87FD007B7BB9 /* macros.h */,
+				B22B31EE1AAF87FD007B7BB9 /* pe.c */,
+				B22B31EF1AAF87FD007B7BB9 /* pe.h */,
+				B22B31F01AAF87FD007B7BB9 /* sections.h */,
+			);
+			name = libpe;
+			sourceTree = "<group>";
+		};
+		B236C20E1A9928EC00BE7F31 = {
+			isa = PBXGroup;
+			children = (
+				B236C2191A9928EC00BE7F31 /* fallout-emu */,
+				B22B31E31AAF87D0007B7BB9 /* thirdparty */,
+				B25A0D111ABF5EF600634912 /* fallout-emu-ios */,
+				B28CAE4D1BEF796E0024E83D /* fallout-emu-static-osx */,
+				B236C2181A9928EC00BE7F31 /* Products */,
+				B24390AF1F8A9B0B007AF278 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B236C2181A9928EC00BE7F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B236C2171A9928EC00BE7F31 /* fallout-emu */,
+				B28CAE4C1BEF796E0024E83D /* libfallout-emu-static-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B236C2191A9928EC00BE7F31 /* fallout-emu */ = {
+			isa = PBXGroup;
+			children = (
+				B212F0671AACA0BC0087C0F4 /* exceptions */,
+				B236C24C1AAC5D1D00BE7F31 /* dll-proxies */,
+				B236C2481AABAEBD00BE7F31 /* categories */,
+				B236C21A1A9928EC00BE7F31 /* main.m */,
+				B236C2231A9A3C3C00BE7F31 /* FEStack.h */,
+				B236C2241A9A3C3C00BE7F31 /* FEStack.c */,
+				B236C2261A9A3F7400BE7F31 /* FEThreadContext.h */,
+				B236C2271A9A3F7400BE7F31 /* FEThreadContext.c */,
+				B236C2291A9A601E00BE7F31 /* FEMemoryMap.h */,
+				B236C22A1A9A601E00BE7F31 /* FEMemoryMap.c */,
+				B236C22C1A9A6FE400BE7F31 /* FEMemoryMapBlock.h */,
+				B236C22D1A9A6FE400BE7F31 /* FEMemoryMapBlock.c */,
+				B236C2421A9D423300BE7F31 /* beaengine_utils.h */,
+				B236C2431A9D424700BE7F31 /* beaengine_utils.m */,
+				B236C2451AA3A89B00BE7F31 /* FEImportsProxy.h */,
+				B236C2461AA3A89B00BE7F31 /* FEImportsProxy.m */,
+				B212F0631AAC9B8E0087C0F4 /* FEMemoryAccessMode.h */,
+				B22B31E21AAE3961007B7BB9 /* FECommonTypes.h */,
+				B228C2C11AB489BE00664B78 /* FEProcess.h */,
+				B228C2C21AB489BE00664B78 /* FEProcess.m */,
+				B228C2C41AB4B4C500664B78 /* FELocalDescriptorTable.h */,
+				B228C2C51AB4B4C500664B78 /* FELocalDescriptorTable.c */,
+				B2C084C81ABEE7AD009455F5 /* FEFPU.h */,
+				B2C084C91ABEE7AD009455F5 /* FEFPU.c */,
+				B2BFF1781AF02B7B007ACE5C /* FECPUFlags.h */,
+				B2BFF1791AF02B7B007ACE5C /* FECPUFlags.c */,
+				B2BFF1931B10BF47007ACE5C /* FEPCH.pch */,
+				B2BFF1981B1E4D1B007ACE5C /* FEArray.c */,
+				B2BFF1991B1E4D1B007ACE5C /* FEArray.h */,
+				B2EE7D301B3CAAEB0035FB9A /* utils.m */,
+				B2EE7D311B3CAAEB0035FB9A /* utils.h */,
+				B2EE7D331B4885F80035FB9A /* cutils.c */,
+				B2EE7D341B4885F80035FB9A /* cutils.h */,
+				B27B1F301C27344900456572 /* FEMemoryMap.s */,
+			);
+			path = "fallout-emu";
+			sourceTree = "<group>";
+		};
+		B236C2481AABAEBD00BE7F31 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				B236C2491AABAEE200BE7F31 /* NSString+FE.h */,
+				B236C24A1AABAEE200BE7F31 /* NSString+FE.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		B236C24C1AAC5D1D00BE7F31 /* dll-proxies */ = {
+			isa = PBXGroup;
+			children = (
+				B236C24D1AAC5D8E00BE7F31 /* FEKernel32DLL.h */,
+				B236C24E1AAC5D8E00BE7F31 /* FEKernel32DLL.m */,
+				B22B31F41AB0EA2B007B7BB9 /* FETime.h */,
+				B228C2CD1AB4F63400664B78 /* FEMSVCRTDLL.h */,
+				B228C2CE1AB4F63400664B78 /* FEMSVCRTDLL.m */,
+				B25A0D361AC71B5E00634912 /* FENLS.h */,
+				B25A0D371AC7624700634912 /* FEUser32DLL.h */,
+				B25A0D381AC7624700634912 /* FEUser32DLL.m */,
+				B25A0D3A1AC76D1400634912 /* FEGDI32DLL.h */,
+				B25A0D3B1AC76D1400634912 /* FEGDI32DLL.m */,
+				B25A0D3D1AC847CC00634912 /* FEDDrawDLL.h */,
+				B25A0D3E1AC847CC00634912 /* FEDDrawDLL.m */,
+				B25A0D401AC8A69000634912 /* FEDInputDLL.h */,
+				B25A0D411AC8A69000634912 /* FEDInputDLL.m */,
+				B25A0D431AC8A77B00634912 /* FEDSoundDLL.h */,
+				B25A0D441AC8A77B00634912 /* FEDSoundDLL.m */,
+				B2BFF1941B1A65B1007ACE5C /* FEWinmmDLL.h */,
+				B2BFF1951B1A65B1007ACE5C /* FEWinmmDLL.m */,
+			);
+			name = "dll-proxies";
+			sourceTree = "<group>";
+		};
+		B24390AF1F8A9B0B007AF278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B24390B01F8A9B0B007AF278 /* libBeaEngine_s_d.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25A0D111ABF5EF600634912 /* fallout-emu-ios */ = {
+			isa = PBXGroup;
+			children = (
+				B25A0D161ABF5EF600634912 /* AppDelegate.h */,
+				B25A0D171ABF5EF600634912 /* AppDelegate.m */,
+				B25A0D191ABF5EF600634912 /* ViewController.h */,
+				B25A0D1A1ABF5EF600634912 /* ViewController.m */,
+				B25A0D1C1ABF5EF600634912 /* Main.storyboard */,
+				B25A0D1F1ABF5EF600634912 /* Images.xcassets */,
+				B25A0D211ABF5EF600634912 /* LaunchScreen.xib */,
+				B25A0D121ABF5EF600634912 /* Supporting Files */,
+			);
+			path = "fallout-emu-ios";
+			sourceTree = "<group>";
+		};
+		B25A0D121ABF5EF600634912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25A0D131ABF5EF600634912 /* Info.plist */,
+				B25A0D141ABF5EF600634912 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B28CAE4D1BEF796E0024E83D /* fallout-emu-static-osx */ = {
+			isa = PBXGroup;
+			children = (
+				B28CAE4E1BEF796E0024E83D /* fallout_emu_static_osx.h */,
+				B28CAE501BEF796E0024E83D /* fallout_emu_static_osx.m */,
+			);
+			path = "fallout-emu-static-osx";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B28CAE4A1BEF796E0024E83D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28CAE4F1BEF796E0024E83D /* fallout_emu_static_osx.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B236C2161A9928EC00BE7F31 /* fallout-emu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B236C21E1A9928EC00BE7F31 /* Build configuration list for PBXNativeTarget "fallout-emu" */;
+			buildPhases = (
+				B236C2131A9928EC00BE7F31 /* Sources */,
+				B236C2141A9928EC00BE7F31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fallout-emu";
+			productName = "fallout-emu";
+			productReference = B236C2171A9928EC00BE7F31 /* fallout-emu */;
+			productType = "com.apple.product-type.tool";
+		};
+		B28CAE4B1BEF796E0024E83D /* fallout-emu-static-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28CAE541BEF796E0024E83D /* Build configuration list for PBXNativeTarget "fallout-emu-static-osx" */;
+			buildPhases = (
+				B28CAE481BEF796E0024E83D /* Sources */,
+				B28CAE491BEF796E0024E83D /* Frameworks */,
+				B28CAE4A1BEF796E0024E83D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fallout-emu-static-osx";
+			productName = "fallout-emu-static-osx";
+			productReference = B28CAE4C1BEF796E0024E83D /* libfallout-emu-static-osx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B236C20F1A9928EC00BE7F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexander Smirnov";
+				TargetAttributes = {
+					B236C2161A9928EC00BE7F31 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B28CAE4B1BEF796E0024E83D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = B236C2121A9928EC00BE7F31 /* Build configuration list for PBXProject "fallout-emu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B236C20E1A9928EC00BE7F31;
+			productRefGroup = B236C2181A9928EC00BE7F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B236C2161A9928EC00BE7F31 /* fallout-emu */,
+				B28CAE4B1BEF796E0024E83D /* fallout-emu-static-osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B236C2131A9928EC00BE7F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B212F0661AACA0880087C0F4 /* FEMemoryAccessException.m in Sources */,
+				B236C2471AA3A89B00BE7F31 /* FEImportsProxy.m in Sources */,
+				B228C2C31AB489BE00664B78 /* FEProcess.m in Sources */,
+				B25A0D421AC8A69000634912 /* FEDInputDLL.m in Sources */,
+				B25A0D3F1AC847CC00634912 /* FEDDrawDLL.m in Sources */,
+				B25A0D451AC8A77B00634912 /* FEDSoundDLL.m in Sources */,
+				B2BFF17A1AF02B7B007ACE5C /* FECPUFlags.c in Sources */,
+				B212F06C1AACC0910087C0F4 /* FEImportException.m in Sources */,
+				B2BFF1961B1A65B1007ACE5C /* FEWinmmDLL.m in Sources */,
+				B236C22B1A9A601E00BE7F31 /* FEMemoryMap.c in Sources */,
+				B25A0D391AC7624700634912 /* FEUser32DLL.m in Sources */,
+				B228C2C91AB4B77800664B78 /* FEMemoryOverflow.m in Sources */,
+				B236C22E1A9A6FE400BE7F31 /* FEMemoryMapBlock.c in Sources */,
+				B236C2281A9A3F7400BE7F31 /* FEThreadContext.c in Sources */,
+				B25A0D3C1AC76D1400634912 /* FEGDI32DLL.m in Sources */,
+				B2EE7D321B3CAAEB0035FB9A /* utils.m in Sources */,
+				B228C2C61AB4B4C500664B78 /* FELocalDescriptorTable.c in Sources */,
+				B236C24F1AAC5D8E00BE7F31 /* FEKernel32DLL.m in Sources */,
+				B27B1F311C27344900456572 /* FEMemoryMap.s in Sources */,
+				B228C2CF1AB4F63400664B78 /* FEMSVCRTDLL.m in Sources */,
+				B2BFF19A1B1E4D1B007ACE5C /* FEArray.c in Sources */,
+				B228C2CC1AB4D06A00664B78 /* FEPEReadException.m in Sources */,
+				B22B31F11AAF87FD007B7BB9 /* error.c in Sources */,
+				B22B31F21AAF87FD007B7BB9 /* pe.c in Sources */,
+				B23389A91AD96B9E00CC87A8 /* FEDivideError.m in Sources */,
+				B236C21B1A9928EC00BE7F31 /* main.m in Sources */,
+				B2C084CA1ABEE7AD009455F5 /* FEFPU.c in Sources */,
+				B236C2441A9D424800BE7F31 /* beaengine_utils.m in Sources */,
+				B236C24B1AABAEE200BE7F31 /* NSString+FE.m in Sources */,
+				B2EE7D351B4885F80035FB9A /* cutils.c in Sources */,
+				B236C2251A9A3C3C00BE7F31 /* FEStack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28CAE481BEF796E0024E83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28CAE551BEF79C00024E83D /* FEMemoryAccessException.m in Sources */,
+				B28CAE561BEF79C00024E83D /* FEImportException.m in Sources */,
+				B28CAE571BEF79C00024E83D /* FEMemoryOverflow.m in Sources */,
+				B28CAE581BEF79C00024E83D /* FEPEReadException.m in Sources */,
+				B28CAE591BEF79C00024E83D /* FEDivideError.m in Sources */,
+				B28CAE5A1BEF79C00024E83D /* FEKernel32DLL.m in Sources */,
+				B28CAE5B1BEF79C00024E83D /* FEMSVCRTDLL.m in Sources */,
+				B28CAE5C1BEF79C00024E83D /* FEUser32DLL.m in Sources */,
+				B28CAE5D1BEF79C00024E83D /* FEGDI32DLL.m in Sources */,
+				B28CAE5E1BEF79C00024E83D /* FEDDrawDLL.m in Sources */,
+				B28CAE5F1BEF79C00024E83D /* FEDInputDLL.m in Sources */,
+				B28CAE601BEF79C00024E83D /* FEDSoundDLL.m in Sources */,
+				B28CAE611BEF79C00024E83D /* FEWinmmDLL.m in Sources */,
+				B28CAE621BEF79C00024E83D /* NSString+FE.m in Sources */,
+				B28CAE631BEF79C00024E83D /* FEStack.c in Sources */,
+				B28CAE721BEF7A860024E83D /* pe.c in Sources */,
+				B28CAE641BEF79C00024E83D /* FEThreadContext.c in Sources */,
+				B28CAE651BEF79C00024E83D /* FEMemoryMap.c in Sources */,
+				B27B1F321C27344900456572 /* FEMemoryMap.s in Sources */,
+				B28CAE661BEF79C00024E83D /* FEMemoryMapBlock.c in Sources */,
+				B28CAE671BEF79C00024E83D /* beaengine_utils.m in Sources */,
+				B28CAE681BEF79C00024E83D /* FEImportsProxy.m in Sources */,
+				B28CAE6A1BEF79C00024E83D /* FEProcess.m in Sources */,
+				B28CAE6B1BEF79C00024E83D /* FELocalDescriptorTable.c in Sources */,
+				B28CAE6C1BEF79C00024E83D /* FEFPU.c in Sources */,
+				B28CAE711BEF7A860024E83D /* error.c in Sources */,
+				B28CAE6D1BEF79C00024E83D /* FECPUFlags.c in Sources */,
+				B28CAE6E1BEF79C00024E83D /* FEArray.c in Sources */,
+				B28CAE6F1BEF79C00024E83D /* utils.m in Sources */,
+				B28CAE701BEF79C00024E83D /* cutils.c in Sources */,
+				B28CAE511BEF796E0024E83D /* fallout_emu_static_osx.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B25A0D1C1ABF5EF600634912 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25A0D1D1ABF5EF600634912 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B25A0D211ABF5EF600634912 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25A0D221ABF5EF600634912 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B236C21C1A9928EC00BE7F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "fallout-emu/FEPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B236C21D1A9928EC00BE7F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREFIX_HEADER = "fallout-emu/FEPCH.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B236C21F1A9928EC00BE7F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				GCC_FAST_MATH = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_STRICT_ALIASING = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/beaengine/lib",
+				);
+				LLVM_LTO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ./thirdparty/beaengine/include/;
+			};
+			name = Debug;
+		};
+		B236C2201A9928EC00BE7F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_STRICT_ALIASING = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/beaengine/lib",
+				);
+				LLVM_LTO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ./thirdparty/beaengine/include/;
+			};
+			name = Release;
+		};
+		B28CAE521BEF796E0024E83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_STRICT_ALIASING = NO;
+				GCC_UNROLL_LOOPS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/beaengine/lib",
+				);
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ./thirdparty/beaengine/include/;
+			};
+			name = Debug;
+		};
+		B28CAE531BEF796E0024E83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_STRICT_ALIASING = NO;
+				GCC_UNROLL_LOOPS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/beaengine/lib",
+				);
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ./thirdparty/beaengine/include/;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B236C2121A9928EC00BE7F31 /* Build configuration list for PBXProject "fallout-emu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B236C21C1A9928EC00BE7F31 /* Debug */,
+				B236C21D1A9928EC00BE7F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B236C21E1A9928EC00BE7F31 /* Build configuration list for PBXNativeTarget "fallout-emu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B236C21F1A9928EC00BE7F31 /* Debug */,
+				B236C2201A9928EC00BE7F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28CAE541BEF796E0024E83D /* Build configuration list for PBXNativeTarget "fallout-emu-static-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28CAE521BEF796E0024E83D /* Debug */,
+				B28CAE531BEF796E0024E83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B236C20F1A9928EC00BE7F31 /* Project object */;
+}

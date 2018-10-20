@@ -1,0 +1,4 @@
+Эмулятор x86 процессора, а также части WinAPI необходимой для запуска Fallout 2.
+Успешно запускает Fallout 2 https://www.gog.com/game/fallout_2 на mac os x в окне, играет вступительный ролик, без звука https://www.youtube.com/watch?v=DXt2ODQZ114 отрисовка меню игры не работает, нужно допиливать старый DirectX API, но запал угас, пусть пока полежит тут.
+
+Еще немного про разрботку есть тут http://smirn0v.github.io/fallout-emu.html

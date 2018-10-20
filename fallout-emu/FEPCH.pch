@@ -1,0 +1,17 @@
+//
+//  FEPCH.pch
+//  fallout-emu
+//
+//  Created by Alexander Smirnov on 23/05/15.
+//  Copyright (c) 2015 Alexander Smirnov. All rights reserved.
+//
+
+#ifndef fallout_emu_FEPCH_pch
+#define fallout_emu_FEPCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define fe_assert(...) assert(...,@"")
+
+#endif

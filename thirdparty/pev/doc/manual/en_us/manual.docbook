@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE book [
+  <!ENTITY info SYSTEM "info.docbook">
+  <!ENTITY pev SYSTEM "pev.docbook">
+  <!ENTITY install SYSTEM "install.docbook">
+  <!ENTITY basic-usage SYSTEM "basic-usage.docbook">
+  <!ENTITY advanced-features SYSTEM "advanced-features.docbook">
+  <!ENTITY tools SYSTEM "tools.docbook">
+  <!ENTITY license SYSTEM "../../fdl-1.3.xml">
+]>
+
+<book id="pev-manual" lang="en-us">
+
+&info;
+&pev;
+&install;
+&basic-usage;
+&advanced-features;
+&tools;
+&license;
+
+</book>

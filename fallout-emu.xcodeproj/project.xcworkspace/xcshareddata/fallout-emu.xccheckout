@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1AC0595F-7757-4E3C-88AE-6D6F365234EC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>fallout-emu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FA6096029809F0F790F521A759AFC6A667661942</key>
+		<string>ssh://smirn0v.ru:/opt/git/fallout-emu</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>fallout-emu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FA6096029809F0F790F521A759AFC6A667661942</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://smirn0v.ru:/opt/git/fallout-emu</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FA6096029809F0F790F521A759AFC6A667661942</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FA6096029809F0F790F521A759AFC6A667661942</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fallout-emu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
